@@ -3,190 +3,177 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Mitchell Baller
+    tagline: Graduate Student
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: mballer3@gatech.edu
+    phone: +1(216)544-5720
+    linkedin: mitchellballer
+    github: mitchellballer
     pdf: http://www.africau.edu/images/default/sample.pdf
 
-    languages:
-      - idiom: English
-        level: Native
-
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
     interests:
-      - item: Climbing
+      - item: Marathon Running
         link:
 
-      - item: Snowboarding
+      - item: Hiking
         link:
 
-      - item: Cooking
+      - item: Photography
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Computer science graduate student with full time software developer experience
+      looking to apply coursework and industry skills to an internship or co-op in the
+      fields of computational perception and robotics or machine learning and artificial intelligence.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MS in Computer Science
+      university: Georgia Institute of Technology
+      time: August 2021 - May 2023
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        Pursuing concentration in computational perception. Notable projects below. Current and completed coursework:
+          - Graduate Introduction to Operating Systems
+          - Advanced Operating Systems
+          - Computational Photography
+          - Artificial Intelligence
+    - degree: BS in Computer Science
+      university: Case Western Reserve University
+      time: August 2013 - May 2017
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+          - 4 year Varsity Track and Field and Cross Country
+          - NSF, Research Experience for Undergraduates Grant
+          - Case Western Reserve University Scholarship Recipient
+experience:
+    - role: Software Developer
+      time: July 2019 - August 2021
+      company: Eaton, Cleveland, OH
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+          - Knowledge expert of three business critical applications: pay statement application, bullseye supplier location tool and intranet search application.
+          - Owned development pipeline of those applications: gathered and created feature/bugfix requirements, groomed and estimated stories, developed and tested stories, presented to business stakeholders and development team and maintained stories through production.
+          - Modernized SDLC of custom pay statement application by adding testing suite, automated deployment with  Jenkins, version control with Git and migrated code base to BitBucket
+          - Automated metric collection for weekly platform scorecards with Python and AppPulse’s open API
+          - Performed fixes and improvements in Java and JavaScript to Oracle and Adobe platforms in agile sprints
+          - Won internal hackathon to prototype an app to monitor machine power draw and alert supervisors of issues
+    - role: IT Functional Analyst
+      time: July 2017 - July 2019
+      company: Eaton, Cleveland, OH
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        - Improved contact center implementation accuracy and efficiency by standardizing testing and issue tracking
+        - Led contact center reporting refresh during platform upgrade to improve dashboard and metric effectiveness
+        - Deployed, configured, and led testing for 22 complex Cisco contact centers in the US, Europe, and Asia
+        - Nominated to be campus recruiter, manager for summer intern and mentor for first year LDP
+    - role: IT Intern
+      time: Summer 2016
+      company: Eaton, Pittsburgh, PA
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        - Led Windows 10 compatibility testing for manufacturing plant applications
+        - Designed and implemented physical plant inventory scheduling tool using Visual Basic
+    - role: Researcher
+      time: Summer 2015
+      company: Texas Tech University, Lubbock, TX
+      details: |
+        - Stored and queried large network traffic datasets with Apache Hive in order to predict network attacks
+        - Enabled data analysis with Apache Hadoop, Apache Hive, SQL and Wireshark
+        - Proposal presentation, progress reports, and poster session to lab mentor, graduate students and professors
+
+coursework:
+  title: coursework
+  intro: >
+    Due to Georgia Tech's academic integrity policy I'm unable to make my code publicly available. So I've sumarized major projects below.
+    If you would like to see code snippets or hear more, just drop me an email and I'd love to talk!
+  assignments:
+    - title: Operating Systems, multithreaded getfile server
+      link:
+      tagline: "Implemented multithreaded Getfile client library and multithreaded Getfile server library in C."
+      details: |
+        - Client side interface influenced by Libcurl 'easy' interface.
+        - Server side interface influenced by python's built in httpserver.
+      links:
+        - url: https://s3.amazonaws.com/content.udacity-data.com/courses/ud923/references/ud923-eykholt-paper.pdf
+          title: Beyond Multiprocessing... Multithreading the SunOS kernel
+
+    - title: Computational Photography, Seam Carving
+      link:
+      tagline: "Implement paper: Seam Carving for Content-Aware Image Resizing. Implemented algorithms described in the paper
+       to resize images intelligently based on detected content.
+      ."
+      details: |
+        - Used Python with OpenCV2 and NumPY for basic image manipulation tools.
+        - Wrote custom functions to calculate pixel gradients to determine high vs low pixel priority
+        - Dynamic programming to trace and label the optimal seam
+      links:
+        - url: https://faculty.idc.ac.il/arik/SCWeb/imret/index.html
+          title: Seam Carving for Content-Aware Image Resizing
+
+    - title: Operating Systems, Multithreaded Proxy server
+      link:
+      tagline: "Building on multithreaded getfile server, implement multithreaded proxy server to provide interface between multiple multithreaded clients
+      and a cache in C."
+      details: |
+        - Convert implementation of previous getfile server to act as a proxy server. Accepts incoming GETFILE requests and translates them into http requests for another server
+        - Implemented simple cache server that communicates with many proxy servers via shared memory.
+        - Boss/worker multithreading, command channel with system V message queues, data channel with system V shared memory and semaphores.
+      links:
+        - url: https://curl.se/libcurl/c/
+          title: Libcurl's "easy" C interface
+
+    - title: Computational Photography, Object Removal
+      tagline: "Implement paper: Object Removal by Exemplar-Based Inpainting. Implemented algorithms described to remove marked objects and
+      intelligently fill in removed pixels based on image features and textures."
+      details: |
+        - Used Python with OpenCV2 and NumPY for basic image manipulation tools.
+      links:
+        - url: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/criminisi_cvpr2003.pdf
+          title: Object Removal by Exemplar-Based Inpainting
+
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  title: Projects
+  intro: >
+    A few projects I've worked on in the past.
+  assignments:
+    - title: Coaches Dashboard
+      link: github.com/mitchellballer/coaching_assistant
+      tagline: "Created platform for coaches to view athlete workout information and statistics in comprehensive dashboard.
+      Integrated Strava API to automatically sync workout data or manually add/update workouts.
+      Defined high level architecture and OAuth2 authentication flow. Built using Python, Flask, SQLite3, Strava’s open API, HTML and CSS"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    - title: Reel Talkers
+      link: github.com/ReelTalkers
+      tagline: "Movie recommendation and collaboration site for computer science senior project.
+      Built front-end using CSS, HTML and React influenced by elements from websites like Instagram and Netflix.
+      Assembled and configured Linux server to host website, run algorithm workloads and store user data"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Java
+        level: 90%
 
-      - name: Angular
-        level: 98%
+      - name: C & C++
+        level: 70%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 50%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Javascript
+        level: 50%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: SQLITE3 & SQL
+        level: 50%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+footer_addtl: >
+    Forked and modified by <a href="http://github.com/mitchellballer" target="_blank">Mitchell Baller</a>

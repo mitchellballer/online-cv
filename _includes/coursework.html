@@ -1,0 +1,49 @@
+{% assign work = site.data.data.coursework %}
+{% if work %}
+<section class="section projects-section">
+
+    <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+        {{ work.title }}
+    </h2>
+
+    {% if work.intro %}
+    <div class="intro">
+        <p>{{ work.intro }}</p>
+    </div><!--//intro-->
+    {% endif %}
+
+    {% for project in work.assignments %}
+    <div class="item">
+
+      <span class="project-title">
+        {% if project.link %}
+        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        {% else %}
+        {{ project.title }}
+        {% endif %}
+      </span>
+        {% if project.tagline %}
+        - <span class="project-tagline">{{ project.tagline }}</span>
+        {% endif %}
+
+        {% if project.details %}
+        <div class="details">
+            {{ project.details | markdownify }}
+        </div><!--//details-->
+        {% endif %}
+
+        {% for link in project.links %}
+        <div class="details">
+            - <a href="{{ link.url }}">{{ link.title }}</a>
+        </div>
+        {% endfor %}
+
+    </div><!--//item-->
+    {% endfor %}
+
+</section><!--//section-->
+{% endif %}
