@@ -2,13 +2,10 @@
 
 # Site Settings
 title: My Resume
-url: 'http://webjeda.com'
-baseurl: '/online-cv' #change it according to your repository name
+domain: mitchellballer.com
+url: https://mitchellballer.com
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: blue # blue turquoise green berry orange ceramic
-
-# Tracker
-analytics: UA-83979019-1
 
 # Sass/SCSS
 sass:
@@ -17,10 +14,7 @@ sass:
 
 # Build settings
 encoding: "utf-8"
-compress_html: # - http://jch.penibelst.de/
-  clippings: all
-  ignore:
-    envs: development
+
 
 # Development Settings
 port: 4000
