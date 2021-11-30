@@ -16,7 +16,7 @@ sidebar:
     phone: +1(216)544-5720
     linkedin: mitchellballer
     github: mitchellballer
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: http://www.mitchellballer.com/assets/images/BallerMitchellResume_2021.pdf
 
     interests:
       - item: Marathon Running
@@ -162,16 +162,16 @@ skills:
         level: 90%
 
       - name: C & C++
-        level: 70%
+        level: 75%
 
       - name: HTML5 & CSS
-        level: 50%
+        level: 60%
 
       - name: Javascript
-        level: 50%
+        level: 60%
 
       - name: SQLITE3 & SQL
-        level: 50%
+        level: 75%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
