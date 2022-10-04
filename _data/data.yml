@@ -37,9 +37,10 @@ career-profile:
 education:
     - degree: MS in Computer Science
       university: Georgia Institute of Technology
-      time: August 2021 - May 2023
+      time: August 2021 - December 2023
       details: |
         Pursuing concentration in computational perception. Notable projects below. Current and completed coursework:
+          - Computer Vision
           - Graduate Introduction to Operating Systems
           - Advanced Operating Systems
           - Computational Photography
@@ -52,6 +53,15 @@ education:
           - NSF, Research Experience for Undergraduates Grant
           - Case Western Reserve University Scholarship Recipient
 experience:
+    - role: Software Engineer Co-Op, Computer Vision
+      time: May 2022 - December 2022
+      company: Circle Optics, Rochester, NY
+      details: |
+          -	Wrote algorithm for focusing a novel lens assembly by evaluating captured images of MTF targets in Python and C++
+          -	Benchmarked and evaluated vendor camera sensors and SDKs for new product lines using custom software suite
+          -	Researched and implemented state of the art Detect and Avoid algorithms leveraging CUDA with proprietary camera system
+          -	Developing method for calibrating telescope assembly at short range
+          -	Writing REST API with Rust for controlling camera system and monitoring temperatures and alerts
     - role: Software Developer
       time: July 2019 - August 2021
       company: Eaton, Cleveland, OH
