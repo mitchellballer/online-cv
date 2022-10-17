@@ -21,8 +21,8 @@
 title: Mitchell Baller's Resume
 email: mballer3@gatech.edu
 description: >- # this means to ignore newlines until "baseurl:"
- Welcome to my Mitchell Baller's resume!
-  This is awebsite to display my resume in a little more detail than can be captured in a single page.
+ Welcome to Mitchell Baller's resume!
+  This is a website to display my resume in a little more detail than can be captured in a single page.
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: ""
 
